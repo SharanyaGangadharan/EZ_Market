@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.shara.courseproject.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp">
+
+        <TextView
+            android:id="@+id/view_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/change_location"
+            android:layout_alignBottom="@+id/change_location"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/add_filter"
+            android:layout_marginEnd="10dp"
+            android:layout_alignTop="@+id/view_location"
+            android:clickable="true"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/change_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/change_location"
+            android:textColor="@color/blue_700"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/add_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/change_location"
+            android:gravity="center"
+            android:text="@string/filter"
+            android:textColor="@color/blue_700"
+            android:layout_alignTop="@+id/change_location"
+            tools:ignore="RelativeOverlap"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <!--ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="450dp"
+            android:columnWidth="100dp"
+            android:drawSelectorOnTop="true"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="42dp" />
+
+    </RelativeLayout>
+    <!--</ScrollView>-->
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_list">
+        <item>"Household"</item>
+        <item>"Tools"</item>
+        <item>"Furniture"</item>
+        <item>"Garden"</item>
+        <item>"Appliances"</item>
+        <item>"Books, movies &amp; music"</item>
+        <item>"Video games"</item>
+        <item>"Jewelry &amp; Accessories"</item>
+        <item>"Bags &amp; Luggage"</item>
+        <item>"Clothing &amp; Shoes - Men"</item>
+        <item>"Clothing &amp; Shoes - Women"</item>
+        <item>"Toys &amp; Games"</item>
+        <item>"Baby &amp; Kids"</item>
+        <item>"Pet Supplies"</item>
+        <item>"Health &amp; Beauty"</item>
+        <item>"Mobile Phones"</item>
+        <item>"Electronics &amp; Computers"</item>
+        <item>"Electronic Accessories"</item>
+        <item>"Sports &amp; Outdoors"</item>
+        <item>"Musical Instruments"</item>
+        <item>"Arts &amp; Crafts"</item>
+        <item>"Antiques &amp; Collectibles"</item>
+        <item>"Auto Parts"</item>
+        <item>"Bicycles"</item>
+        <item>"Cars, Trucks &amp; Motorcycles"</item>
+        <item>"Housing"</item>
+        <item>"Miscellaneous"</item>
+    </string-array>
+</resources>
